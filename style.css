@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+main{
+    background-image: url(baground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main h1 , h4{
+    text-align: center;
+}
+main h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+main button{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin-left: 40%;
+    padding: 15px;
+    width: 8rem;
+    border: 1px solid yellow;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    font-size: 1.25rem;
+}
+.tryAgain{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0.5rem;
+    padding: 15px;
+    width: 8rem;
+    border: 1px solid yellow;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 1.25rem;
+
+}
+button:hover{
+    background-color:#000059;
+    color: #fff;
+    cursor: pointer;
+}
+.container{
+    width: 70%;
+    max-height: 90%;
+    background-color: #040448;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    border: 2px solid yellow;
+    border-radius: 12px;
+    color: #fff;
+    /* display: flex; */
+    padding:15px;
+    align-items: center;
+    /* margin-left: 18rem; */
+}
+
+.quaizPaper input {
+    margin-left: 3rem;
+    width: 20px;
+    height: 20px;
+}
+.quaizPaper h3{
+    padding-top: 20px;
+}
+.result{
+    width: 45rem;
+    height: 8rem;
+    border-radius: 12px;
+    
+}
+/* .result h1{
+    font-size: 25px;
+} */
+.result h4{
+    font-size: 25px;
+}
+
+
